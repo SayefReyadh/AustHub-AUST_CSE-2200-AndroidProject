@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_routine"
+            android:title="Routine" />
+        <item
+            android:id="@+id/nav_cgpa"
+            android:title="CGPA Calculator" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/nav_results"
+            android:title="Results" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

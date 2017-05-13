@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.SettingsActivity">
+
+    <PreferenceCategory android:title="Academic Details">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Select Your Academic Year"
+            android:entries="@array/std_year_title"
+            android:entryValues="@array/std_year_value"
+            android:icon="@drawable/ic_routine"
+            android:key="@string/std_year"
+            android:title="Change Academic Year"/>
+
+
+        <ListPreference
+            android:dialogTitle="Select Your Semester"
+            android:entries="@array/std_sem_title"
+            android:entryValues="@array/std_sem_value"
+            android:icon="@drawable/ic_routine"
+            android:key="@string/std_sem"
+            android:title="Change Semester"/>
+
+        <ListPreference
+            android:dialogTitle="Select Section:"
+            android:entries="@array/std_section_title"
+            android:entryValues="@array/std_section_value"
+            android:icon="@drawable/ic_routine"
+            android:key="@string/std_sec"
+            android:title="Change Section"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

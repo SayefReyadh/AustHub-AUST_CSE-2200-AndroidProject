@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_reminder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbackground1"
+    tools:context="com.example.sayefreyadh.austhub.ui.reminder.AddReminderActivity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reminder"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/reminder_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/reminder_details"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:hint="Details"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/reminder_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:onClick="setDate"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/reminder_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Time"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:onClick="setTime"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/reminder_add_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bbackground1"
+                android:gravity="center"
+                android:text="ADD"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-dark"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+To Run This Project You will Need::
+
+IDE : Android Studio 2.2.3
+
+Note : Currently The Routine Data for only
+CSE 2.2C Semester in inserted in the database please while signing up select 
+CSE 2.2C to show the routine of that semester. The CGPA Calculator has
+all the semester info. So user can change the semester but only
+the CGPA calculator will show but there will be no routine data,
+as it was not inserted.
+
+For any query contact us at
+A15shaafi.209@gmail.com
+Sayef.Reyadh@gmail.com
+
+//APK
+
+current apk version code = 1, version name = 1.0
+database version = 1
+minimum api/android version to run apk=16/JellyBean
+
+
+//PROJECT
+SDK version used to compile project = 25
+SDK version used to Build the project = 25.0.2
+
+Gradle version used = 2.14.1
+
+Android plugin version = 2.2.3
+
+support libraries used in the project(By Google/Android):
+
+'com.android.support:support-v4:25.1.0'
+'com.android.support:appcompat-v7:25.1.0'
+'com.android.support:recyclerview-v7:25.1.0'
+'com.android.support:design:25.1.0'
+
+support libraries used in the project(3rd Party):
+
+'com.github.bumptech.glide:glide:3.7.0' (for loading image into imageView)
+'pl.droidsonroids.gif:android-gif-drawable:1.2.3' (for using gif in project)
+'com.wdullaer:materialdatetimepicker:1.2.1' (for material time and date picker)

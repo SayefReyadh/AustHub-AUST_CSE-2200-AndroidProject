@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bbackground1"
+    tools:context="com.example.sayefreyadh.austhub.ui.reminder.ReminderActivity">
+
+<!--
+    <Button
+        android:id="@+id/reminder_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/background_state_drawable"
+        android:gravity="center"
+        android:onClick="addReminderMethod"
+        android:text="Add Reminder"
+        />
+-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reminder_rec_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/reminder_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_add_black_48dp"
+
+        app:layout_anchor="@id/reminder_rec_list"
+        app:layout_anchorGravity="bottom|right|end"
+        app:backgroundTint="@color/mdtp_calendar_header" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

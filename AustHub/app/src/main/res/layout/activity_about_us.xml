@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFEAEA"
+    tools:context="com.example.sayefreyadh.austhub.ui.AboutUsActivity">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/giphy"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/aboutUsGif"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_below="@id/aboutUsGif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about_us_string"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="@color/mdtp_numbers_text_color"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+</RelativeLayout>

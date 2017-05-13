@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cont_item_root"
+
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/background_state_drawable"
+    android:clickable="true"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#123"/>
+
+    <ImageView
+        android:id="@+id/routine_icon"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:paddingLeft="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_eachclass" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/routine_icon"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/routine_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0800"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:maxLines="1" />
+
+
+
+        <TextView
+            android:id="@+id/routine_course_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/routine_time"
+            android:text="CSE2200"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/routine_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/routine_course_number"
+            android:text="Algorithm"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/routine_room_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/routine_course_name"
+            android:text="7A05"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/routine_course_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/routine_room_number"
+            android:text="SK , Sadik"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="#123"/>
+
+
+</RelativeLayout>

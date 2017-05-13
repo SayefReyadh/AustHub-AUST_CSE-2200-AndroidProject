@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">AustHub</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="about_us_string">
+        Department Of CSE\n\n
+
+        ---Authors---\n
+        Asif Imtiaz Shaafi\n
+        Sayef Reyadh Khan\n\n
+        ---Icon Credits---\n
+        Icon made by Freepik, Popcorns Arts from www.flaticon.com\n
+        ---Image Credits---\n
+        Designed by Jannoon028 / Freepik\n
+        Designed by kjpargeter / Freepik\n
+        Designed by Freepik.com\n
+
+    </string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--std year title-->
+    <string-array name="std_year_title">
+
+        <item>1st Year</item>
+        <item>2nd Year</item>
+        <item>3rd Year</item>
+        <item>4th Year</item>
+
+    </string-array>
+
+    <!--std year value-->
+    <string-array name="std_year_value">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <!--std semester title-->
+    <string-array name="std_sem_title">
+
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+
+    </string-array>
+
+    <!--std semester value-->
+    <string-array name="std_sem_value">
+
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+    <!--std section title-->
+    <string-array name="std_section_title">
+        <item>Section A</item>
+        <item>Section B</item>
+        <item>Section C</item>
+    </string-array>
+
+    <!--std section values-->
+    <string-array name="std_section_value">
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+
+    </string-array>
+
+    <!--file save mode-->
+    <string-array name="save_modes">
+        <item>TXT file</item>
+        <item>PDF file</item>
+    </string-array>
+
+    <!--save values-->
+    <string-array name="save_mode_values">
+        <item>.txt</item>
+        <item>.pdf</item>
+    </string-array>
+
+
+    <!--preference setting names-->
+    <string name="std_year">std_year</string>
+    <string name="std_sem">std_sem</string>
+    <string name="std_sec">std_sec</string>
+    <string name="std_email">std_email</string>
+    <string name="std_name">std_name</string>
+    <string name="file_save_mode">save_mode</string>
+
+
+</resources>
